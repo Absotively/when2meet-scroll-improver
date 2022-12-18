@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           when2meet.com scroll improver
+@namespace      jenpollock.ca
+@version        1.0.0
+@description    Improve scrolling behaviour when hovering over Group's Availability; does move availability list sideways, though
+@author         Jen Pollock
+==/UserStyle== */
+
+@-moz-document domain("when2meet.com") {
+    #SlotAvailability {
+        position: fixed;
+    }
+}
